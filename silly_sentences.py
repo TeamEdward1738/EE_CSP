@@ -14,7 +14,7 @@ favorite_character=(input("tell me your favorite character"))
 
 verb=(input("give me a verb"))
 
-NUMBER=(input("give me a numbers starting with 1 and ending with 0"))
+Number=(input("give me a Number starting with 1 and ending with 0"))
 
 birthday=(input("tell me your birthday"))
 
@@ -22,6 +22,14 @@ color=(input("give me a color"))
 
 adjective=(input("give me an adjective"))
 
+another_verb=(input("give me another verb"))
 
+body_part=(input("give me a body part"))
+
+type_of_food(input("give me a type of food"))
+
+part_of_a_spaceship(input("give me a part of a spaceship"))
+
+type_of_job(input("give me a type of job"))
 
 
