@@ -1,2 +1,2 @@
-# EE, pasasword strength
+# EE, password strength
 
