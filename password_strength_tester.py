@@ -1,22 +1,32 @@
 # EE, password strength
 
-password = input("Enter a password: ")
+password= input("Enter a password:")
 
+upper = False
+lower = False
+number= False
+symbol = False
+
+for letter in password:
+    if letter. isupper():
+        upper = True
+    if letter. islower():
+        lower = True
+    if letter. isnumeric():
+        number = True
+    if letter in "!@#$%^&*":
+        symbol = True
 score = 0
 
-if len(password) >= 8:
+if len(password)>= 8:
     score += 1
-
-if any(c.isupper() for c in password):
+if upper:
     score += 1
-
-if any(c.islower() for c in password):
+if lower:
     score += 1
-
-if any(c.isdigit() for c in password):
+if number:
     score += 1
-
-if any(c in "!@#$%^&*" for c in password):
+if symbol:
     score += 1
 
 if score == 5:
