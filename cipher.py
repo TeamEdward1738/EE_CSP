@@ -3,13 +3,13 @@
 def caesar_shift(message, shift):
     result = ""
 
-    for char in message:
-        if char.isupper():
-            result += chr((ord(char) - ord('A') + shift) % 26 + ord('A'))
+    for chr in message:
+        if chr.isupper():
+            result += chr((ord(chr) - ord('A') + shift) % 26 + ord('A'))
         elif char.islower():
-            result += chr((ord(char) - ord('a') + shift) % 26 + ord('a'))
+            result += chr((ord(chr) - ord('a') + shift) % 26 + ord('a'))
         else:
-            result += char
+            result += chr
 
     return result
 
