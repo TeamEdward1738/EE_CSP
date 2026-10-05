@@ -31,7 +31,7 @@ import random
     #check if letter has been guessed
         #then add the letter to the display word
     #if they haven't guessed the letter
-        # add an underscore to te display word
+        # add an underscore to the display word
 # returns the finished display word (outside of the loop)
 
 
