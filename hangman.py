@@ -53,3 +53,4 @@ import random
         #Increase the lost count
         #ask if they want to play again
                     #reset random word, rest wrong guess count
+                    
